@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo-container {
+  border: 1px solid black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.add-tasks {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+} 
+
+.add-tasks * {
+  padding: 15px 10px;
+  margin: 5px;
+}
+
+.task-lists {
+  height: 70vh;
+  display: flex;
+}
+
+.left {
+  height: 100%;
+  width: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.right {
+  height: 100%;
+  width: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tasks {
+  height: 80%;
+  width: 50%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task {
+  margin: 10px 10px 0 10px;
+  padding: 5px 10px;
+  border-radius: 12px;
+  border: 1px solid black;
+  width: 80%;
+  text-align: center;
+  cursor: pointer;
+}
